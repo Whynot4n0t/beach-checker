@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beach checker</title>
+    <link rel="shortcut icon" href="icons/website.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>beach checker</h1>
+    <p>a simple beach checker for people to know how big waves , what fags are and how many people are at the selected beach by people</p>
+    <form action="redflag.html" class="1">
+        <input type="image" src="icons/redflag.png" alt="redflag">
+    </form>
+    <form action="yellowflag.html" class="2">
+        <input type="image" src="icons/yellowflag.png" alt="yellowflag">
+    </form>
+    <form action="greenflag.html" class="3">
+        <input type="image" src="icons/greenflag.png" alt="greenflag">
+    </form>
+    <p>
+        <img alt="4" src="icons/wavesmall.png" decoding="async" height="32" width="32">
+        <img alt="5" src="icons/wavemedium.png" decoding="async" height="32" width="32">
+        <img alt="5" src="icons/wavebig.png" decoding="async" height="32" width="32">
+    </p>
+    
+    
+    <div id="selectHolder">
+        <select id="changingList" onchange="editDropBox();">
+            <option value="1">beach 1</option>
+            <option value="2">beach 2</option>
+            <option value="3">beach 3</option>
+            <option value="4">beach 4</option>
+            <option value="-99">- Edit -</option>
+            
+        </select>
+    </div>
+
+    
+
+
+    <script src="index_1.js"></script>
+</body>
+</html>
