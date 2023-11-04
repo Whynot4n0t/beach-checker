@@ -3,3 +3,16 @@ body{
     color: rgb(223, 223, 223);
     font-family: Arial, Helvetica, sans-serif;
 }
+.flagstext{
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.toptext{
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+.waves{
+    margin-bottom: 8px;
+    margin-top: 32px;
+}
