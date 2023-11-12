@@ -4,18 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>beach checker</title>
-    <link rel="shortcut icon" href="website.png" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/website.png" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>beach checker</h1>
+    <h1 class="toptext">beach checker</h1>
     <p>a simple beach checker for people to know how big waves , what fags are and how many people are at the selected beach by people</p>
-    <p>
-        <img alt="1" src="icons/redflag.png" height="32" width="32" decoding="async"> 
-        <img alt="2" src="icons/yellowflag.png" height="32" width="32">
-        <img alt="3" src="icons/greenflag.png" height="32" width="32">
-    </p>
     
+    <div class="flags">
+        <p class="flagstext">flags</p>
+        <form action="redflag.html" class="redflag">
+            <input type="image" src="icons/redflag.png" alt="redflag">
+        </form>
+        <form action="yellowflag.html" class="yellowflag">
+            <input type="image" src="icons/yellowflag.png" alt="yellowflag">
+        </form>
+        <form action="greenflag.html" class="greenflag">
+            <input type="image" src="icons/greenflag.png" alt="greenflag">
+        </form>
+    </div>
+
+    <div class="wavetypes">
+        <p class="waves">wavetypes</p>
+        <form action="wavetypes.html" class="4, 5, 6">
+            <input type="image" src="icons/wavesmall.png" alt="wavesmall">
+            <input type="image" src="icons/wavemedium.png" alt="wavemedium">
+            <input type="image" src="icons/wavebig.png" alt="wavebig">
+        </form>
+    </div>
+
+    <div class="peoplenum">
+        <p class="numberofpeople"> number of people</p>
+        <form action="peoplenum.html" class="people">
+            <input type="image" src="icons/peoplelittle.png" alt="peoplelittle">
+            <input type="image" src="icons/peoplemedium.png" alt="peoplemedium">
+            <input type="image" src="icons/peoplewaytoomuch.png" alt="peoplewaytoomuch">
+        </form>
+    </div>
     
     <div id="selectHolder">
         <select id="changingList" onchange="editDropBox();">
@@ -28,9 +53,6 @@
         </select>
     </div>
 
-    
-
-
-    <script src="index.js"></script>
+    <script src="index_1.js"></script>
 </body>
 </html>
